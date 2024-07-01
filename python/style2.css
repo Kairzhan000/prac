@@ -1,0 +1,377 @@
+.body{
+    background: white;
+    position: relative;
+}
+.header{
+    background-color: rgb(198, 194, 194);
+    display: flex;
+    justify-content: space-between;
+}
+.choose{
+    display: flex;
+    position: relative;
+    color: black;
+    font-size: 52px;
+    position: relative;
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.one a{
+text-decoration: none;
+color: black;
+}
+.two a{
+text-decoration: none;
+color: black;
+}
+.three a{
+text-decoration: none;
+color: black;
+}
+.header .choose ul li{
+    position: relative;
+    float: left;
+    flex-direction: row;
+    padding: 40px;
+    list-style: none;
+    justify-content: space-around;
+    height: 0;
+}
+.photo{
+    height: 185px;
+}
+.water{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    font-size: 42px;
+    left: 0;
+    margin-right: 0;
+}
+.facts{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.pis{
+    font-size: 72px;
+}
+.pizza{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+.margarita{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.ror{
+    display: flex;
+    position: relative;
+    font-size: 36px;
+   justify-content: flex-start;
+}
+.card{
+    width: 250px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,1);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.2s;
+}
+.gog{
+    float: left;
+    padding-right: 20px;
+}
+.card:hover{
+    box-shadow: 4px 8px 16px rgba(255,102,51,0.2);
+}
+.card_top{
+    flex: 0 0 220px;
+    color: gray;
+}
+.card_bottom{
+    flex: 1 0 auto;
+    color: rgb(172, 164, 167);
+}
+.card_title{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background: rgb(172, 167, 167);
+}
+.card_btn{
+    color: green;
+    min-height: 35px;
+    font-size: 36px;
+}
+.card_price{
+    background: rgb(172, 164, 167);
+}
+.card2{
+    width: 250px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,1);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.2s;
+}
+.gog{
+    float: left;
+    padding-right: 20px;
+}
+.card:hover{
+    box-shadow: 4px 8px 16px rgba(112, 105, 103, 0.2);
+}
+.card_top2{
+    flex: 0 0 220px;
+    color: gray;
+}
+.card_bottom2{
+    flex: 1 0 auto;
+    color: rgb(172, 164, 167);
+}
+.card_title2{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background: rgb(172, 167, 167);
+}
+.card_btn2{
+    color: green;
+    min-height: 35px;
+    font-size: 36px;
+}
+.card_price2{
+    background: rgb(172, 164, 167);
+    background-size: 100%;
+}
+.price{
+    display: flex;
+    position: relative;
+    margin-left: 25px;
+    font-size: 36px;
+}
+.price2{
+display: flex;
+position: relative;
+font-size: 36px;
+margin-left: 25px;
+}
+.card2:hover{
+    box-shadow: 4px 8px 16px rgba(255,102,51,0.2);
+}
+.menu{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+.card3{
+    width: 250px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,1);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.2s;
+}
+.gog{
+    float: left;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.card3:hover{
+    box-shadow: 4px 8px 16px rgba(255,102,51,0.2);
+}
+.card_top3{
+    flex: 0 0 220px;
+    color: gray;
+}
+.card_bottom3{
+    flex: 1 0 auto;
+    color: rgb(172, 164, 167);
+}
+.card_title3{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background: rgb(172, 167, 167);
+}
+.card_btn3{
+    color: green;
+    min-height: 35px;
+    font-size: 36px;
+}
+.card_price3{
+    background: rgb(172, 164, 167);
+}
+.price3{
+    display: flex;
+position: relative;
+font-size: 36px;
+margin-left: 25px;
+}
+.hoh{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+.card4{
+    width: 250px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,1);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.2s;
+}
+.gog{
+    float: left;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.card4:hover{
+    box-shadow: 4px 8px 16px rgba(255,102,51,0.2);
+}
+.card_top4{
+    flex: 0 0 220px;
+    color: gray;
+}
+.card_bottom4{
+    flex: 1 0 auto;
+    color: rgb(172, 164, 167);
+}
+.card_title4{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background: rgb(172, 167, 167);
+}
+.card_btn4{
+    color: green;
+    min-height: 35px;
+    font-size: 36px;
+}
+.card_price4{
+    background: rgb(172, 164, 167);
+}
+.price4{
+    display: flex;
+position: relative;
+font-size: 36px;
+margin-left: 25px;
+}
+.tut{
+    display: flex;
+    position: inherit;
+    margin-left: 20px;
+}
+.nun{
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+.hih{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+}
+.card5{
+    width: 250px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,1);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.2s;
+}
+.gog{
+    float: left;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.card5:hover{
+    box-shadow: 4px 8px 16px rgba(255,102,51,0.2);
+}
+.card_top5{
+    flex: 0 0 220px;
+    color: gray;
+}
+.card_bottom5{
+    flex: 1 0 auto;
+    color: rgb(172, 164, 167);
+}
+.card_title5{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background: rgb(172, 167, 167);
+}
+.card_btn5{
+    color: green;
+    min-height: 35px;
+    font-size: 36px;
+}
+.card_price5{
+    background: rgb(172, 164, 167);
+    width: 80%
+}
+.price5{
+    display: flex;
+position: relative;
+font-size: 36px;
+margin-left: 25px;
+}
+.rer{
+    display: flex;
+    position: relative;
+    margin-left: 25px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.jhj{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+.fake{
+    background: rgb(172, 164, 167);
+    width: 50%;
+    font-size: 24px;
+}
+.card_label{
+    position: absolute;
+    margin-bottom: 60px;
+    left: 4px;
+    padding: 4px 8px;
+    background-color: #ff6633;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+.photo2{
+    height: 360px;
+}

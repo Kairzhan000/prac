@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    top: 0px;
+    margin-bottom: 50px;
+}
+.body{
+    background-color: orangered;
+}
+
+.one a{
+    font-size: 52px;
+    color: white;
+   text-decoration-line: none;
+   margin-left: 100px;
+}
+.two a{
+  text-decoration-line: none;
+    font-size: 52px;
+    color: white;
+    margin-left: 100px;
+}
+.three a{
+    text-decoration-line: none;
+    font-size: 52px;
+    margin-left: 100px;
+    color: white
+}
+.square{
+    display: flex;
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+   border-radius: 10%;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 300px;
+  font-size: 32px;
+}
+.footer{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.info{
+    font-size: 32px;
+}
+.content{ 
+    display: flex;
+    position: relative;
+flex-direction: row;
+list-style: none;
+justify-content: center;
+}
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    display: flex;
+    height: 160px;
+}
